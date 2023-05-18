@@ -47,14 +47,47 @@
                     <view key="view" contentMode="scaleToFill" id="NK4-wi-7w5">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fqd-lM-m3A">
+                                <rect key="frame" x="16" y="112.5" width="120" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Dw1-gL-6y8"/>
+                                    <constraint firstAttribute="width" constant="120" id="siY-43-MrF"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="OEe-8X-vcm">
+                                <rect key="frame" x="144" y="120.5" width="160" height="96"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nna-Cd-br3">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Surname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6j-is-RvT">
+                                        <rect key="frame" x="0.0" y="72" width="160" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="lHh-eV-0pP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lHh-eV-0pP" firstAttribute="trailing" secondItem="OEe-8X-vcm" secondAttribute="trailing" constant="16" id="8Px-4m-60h"/>
+                            <constraint firstItem="Fqd-lM-m3A" firstAttribute="top" secondItem="lHh-eV-0pP" secondAttribute="top" id="A2E-6f-CPa"/>
+                            <constraint firstItem="OEe-8X-vcm" firstAttribute="top" secondItem="lHh-eV-0pP" secondAttribute="top" constant="8" id="ckL-79-JNA"/>
+                            <constraint firstItem="OEe-8X-vcm" firstAttribute="leading" secondItem="Fqd-lM-m3A" secondAttribute="trailing" constant="8" id="gad-JC-iiF"/>
+                            <constraint firstItem="Fqd-lM-m3A" firstAttribute="leading" secondItem="lHh-eV-0pP" secondAttribute="leading" constant="16" id="ilQ-g8-qrE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pm5-SP-ueM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vnK-93-zyV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1001" y="167"/>
+            <point key="canvasLocation" x="999.375" y="166.90140845070422"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gV4-a6-fJU">
