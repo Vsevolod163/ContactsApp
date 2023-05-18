@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C62841B82A167CA200C9622E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62841B72A167CA200C9622E /* AppDelegate.swift */; };
 		C62841BA2A167CA200C9622E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62841B92A167CA200C9622E /* SceneDelegate.swift */; };
-		C62841BC2A167CA200C9622E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62841BB2A167CA200C9622E /* ViewController.swift */; };
+		C62841BC2A167CA200C9622E /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62841BB2A167CA200C9622E /* ContactViewController.swift */; };
 		C62841BF2A167CA200C9622E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62841BD2A167CA200C9622E /* Main.storyboard */; };
 		C62841C12A167CA300C9622E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62841C02A167CA300C9622E /* Assets.xcassets */; };
 		C62841C42A167CA300C9622E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62841C22A167CA300C9622E /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		C62841B42A167CA200C9622E /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C62841B72A167CA200C9622E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C62841B92A167CA200C9622E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C62841BB2A167CA200C9622E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C62841BB2A167CA200C9622E /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		C62841BE2A167CA200C9622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C62841C02A167CA300C9622E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62841C32A167CA300C9622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 		C62841CE2A167CDC00C9622E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				C62841BB2A167CA200C9622E /* ViewController.swift */,
 				C62841D12A1680E100C9622E /* ContactsTableViewController.swift */,
+				C62841BB2A167CA200C9622E /* ContactViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C62841BC2A167CA200C9622E /* ViewController.swift in Sources */,
+				C62841BC2A167CA200C9622E /* ContactViewController.swift in Sources */,
 				C62841B82A167CA200C9622E /* AppDelegate.swift in Sources */,
 				C62841BA2A167CA200C9622E /* SceneDelegate.swift in Sources */,
 				C62841D22A1680E100C9622E /* ContactsTableViewController.swift in Sources */,
