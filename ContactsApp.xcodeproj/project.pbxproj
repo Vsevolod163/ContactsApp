@@ -13,6 +13,7 @@
 		C62841BF2A167CA200C9622E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62841BD2A167CA200C9622E /* Main.storyboard */; };
 		C62841C12A167CA300C9622E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62841C02A167CA300C9622E /* Assets.xcassets */; };
 		C62841C42A167CA300C9622E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62841C22A167CA300C9622E /* LaunchScreen.storyboard */; };
+		C62841D22A1680E100C9622E /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62841D12A1680E100C9622E /* ContactsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C62841C02A167CA300C9622E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62841C32A167CA300C9622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C62841C52A167CA300C9622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62841D12A1680E100C9622E /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				C62841BB2A167CA200C9622E /* ViewController.swift */,
+				C62841D12A1680E100C9622E /* ContactsTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				C62841BC2A167CA200C9622E /* ViewController.swift in Sources */,
 				C62841B82A167CA200C9622E /* AppDelegate.swift in Sources */,
 				C62841BA2A167CA200C9622E /* SceneDelegate.swift in Sources */,
+				C62841D22A1680E100C9622E /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
