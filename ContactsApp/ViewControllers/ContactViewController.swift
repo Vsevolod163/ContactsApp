@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AlamofireImage
+//import AlamofireImage
 
 final class DetailContactViewController: UIViewController {
     
@@ -30,7 +30,7 @@ final class DetailContactViewController: UIViewController {
         lastNameLabel.text = user.name.last
         
         guard let imageURL = URL(string: user.picture.large) else { return }
-        userImageView.af.setImage(withURL: imageURL)
+//        userImageView.af.setImage(withURL: imageURL)
         
     }
 }

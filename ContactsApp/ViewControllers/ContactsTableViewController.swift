@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import AlamofireImage
+//import AlamofireImage
 
 final class ContactsTableViewController: UITableViewController {
         
@@ -29,7 +29,7 @@ final class ContactsTableViewController: UITableViewController {
 }
 
 // MARK: - UITAbleViewDataSource
-extension ContactListViewController {
+extension ContactsTableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         contacts.count
     }
@@ -61,7 +61,7 @@ extension ContactListViewController {
 }
 
 // MARK: - UITableViewDelegate
-extension ContactListViewController {
+extension ContactsTableViewController {
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         
         if editingStyle == .delete {
@@ -72,7 +72,7 @@ extension ContactListViewController {
 }
 
 // MARK: - Private Methods
-extension ContactListViewController {
+extension ContactsTableViewController {
     private func downloadData() {
         networkManager.fetchUsers { [weak self] result in
             switch result {
